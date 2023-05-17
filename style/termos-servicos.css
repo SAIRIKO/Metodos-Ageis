@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans&family=Poppins&display=swap');
+/*Fontes útilizadas no figma : IBM - Títulos das noticias; Poppins : Notícia de marte; Nunito : As outras notícias*/
+body{
+    background-color: whitesmoke;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpo-site{
+    text-align: center;
+}
+.titulo{
+    font-family: 'IBM Plex Serif', serif;
+}
+.titulo1{
+    font-family: 'IBM Plex Serif', serif;
+}
+hr{
+    border-top: 1px solid #C31815;
+}
+a{
+    text-decoration: none;
+    color: #C31815;
+}

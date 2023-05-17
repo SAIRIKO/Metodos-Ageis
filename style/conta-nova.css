@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans&family=Poppins&display=swap');
+/*Fontes útilizadas no figma : IBM - Títulos das noticias; Poppins : Notícia de marte; Nunito : As outras notícias*/
+body{
+    background-color: whitesmoke;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.cadastro{
+    display: block;
+    background-color: #0E1E32;
+    color: #ffff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    margin-left: 500px;
+    padding: 50px;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+}
+.esqueceu{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+h5{
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 70%;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: white;
+    width: 80%;
+    color: #0E1E32;
+    border-radius: 10px;
+    border-color: #C31815;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #C31815;
+    color: #ffff;
+    border: white;
+    border-color: #ffff;
+}
+.conta-nova-link{
+    text-decoration: none;
+    color: white;
+}
+.conta-nova-txt{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 13px;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+*{  
+    padding: 0;
+    margin: 0 auto;
+    margin: 0%;
+}
+header{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.h-esquerda{
+    margin-left: 7%;
+}
+.h-mid{
+    flex-grow: 1;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+.h-direita{
+    display: flex;
+    margin-right: 7%;
+    justify-content: space-between;
+    width: 120px;
+}
+.h-direita ul li{
+    padding: 10px;
+}
+.ul1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    display: flex;
+    background-color: #0E1E32;
+    width: 100%;
+    height: 250px;
+}
+.footer-esquerda{
+    margin-left: 10%;
+}
+.footer-mid{
+    display: flex;
+    flex-direction: column;
+}
+.lista1-footer{
+    display: block;
+}
+.ul-cima{
+    display: flex;
+    margin-left: 7%;
+}
+.lista2-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0%;
+}
+header{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.h-esquerda{
+    margin-left: 7%;
+}
+.h-mid{
+    flex-grow: 1;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.h-direita{
+    display: flex;
+    margin-right: 7%;
+    justify-content: space-between;
+    width: 120px;
+}
+.h-direita ul li{
+    padding: 10px;
+}
+.ul1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    display: flex;
+    background-color: #0E1E32;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-esquerda{
+    margin-left: 5%;}
+.footer-mid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11%;
+}
+.lista1-footer{
+    display: block;
+}
+.ul-cima{
+    display: flex;
+    justify-content: space-between;
+}
+.lista2-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lista2-footer li{
+    padding: 10px;
+}
+.footer-direita{
+    width: 290px;
+}
