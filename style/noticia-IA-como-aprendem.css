@@ -59,6 +59,11 @@ body{
     margin-left: 25%;
     font-size: 25px;
 }
+hr{
+    border-top: 1px solid #C31815;
+    margin-left: 25%;
+    margin-right: 30%;
+}
 .mid-titulo2{
     font-family: 'IBM Plex Serif', serif;
     margin-left: 25%;
@@ -72,7 +77,13 @@ body{
     font-family: 'IBM Plex Serif', serif;
     margin-left: 25%;
 }
-.img-sonda{
+.img-ia2{
+    margin-left: 25%;
+}
+.img-ia3{
+    margin-left: 25%;
+}
+.img-ia4{
     margin-left: 25%;
 }
 .txt-baixo3{
