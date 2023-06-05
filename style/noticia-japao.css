@@ -23,15 +23,15 @@ hr{
     top: 0;
     left: 0;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 14%;
 }
 .titulo1{
     font-family: 'IBM Plex Serif', serif;
     text-align: left;
-    margin-top: -20%;
+    margin-top: -25%;
     color: white;
     position: absolute;
-    margin-left: 28%;
+    margin-left: 32%;
     font-size: 40px;
 }
 .icons-esquerda{

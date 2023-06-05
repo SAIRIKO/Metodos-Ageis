@@ -23,15 +23,15 @@ a{
     top: 0;
     left: 0;
     margin-top: 15%;
-    margin-left: 25%;
+    margin-left: 22%;
 }
 .titulo1{
     font-family: 'IBM Plex Serif', serif;
     text-align: center;
-    margin-top: -20%;
+    margin-top: -25%;
     color: white;
     position: absolute;
-    margin-left: 33%;
+    margin-left: 31%;
 }
 /*fim da parte 1 do corpo da noticia (imagem + titulo principal)*/
 /*inicio da parte 2 do corpo da noticia (titulos + noticias + imagens)*/

@@ -5,7 +5,6 @@
     margin: 0%;
 }
 header{
-    position: fixed;
     background-color: white;
     display: flex;
     width: 100%;
