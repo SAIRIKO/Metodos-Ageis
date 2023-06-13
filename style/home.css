@@ -2,6 +2,7 @@
 /*Fontes útilizadas no figma : IBM - Títulos das noticias; Poppins : Notícia de marte; Nunito : As outras notícias*/
 main{
     background-color: #E5E5E5;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -11,10 +12,14 @@ a{
     display: flex;
     justify-content: center;
     width: 90%;
+    flex-wrap: wrap;
 }
 .img-em-alta{
     margin-top: 20px;
     margin-left: 7%;
+}
+.sub-em-alta{
+    max-width: 500px;
 }
 .fonte-noticia1{
     font-family: 'Poppins', sans-serif;
@@ -29,6 +34,43 @@ h4{
 }
 .noticia1{
     margin-top: 20px;
+}
+/*Responsividade do "em alta"*/
+@media ( max-width: 450px){
+    .img-em-alta{
+        display: none;
+    }
+}
+@media ( max-width: 700px ){
+    html{
+        background-color: #E5E5E5;
+        width: 100%;
+        max-width: 100%;
+    }
+    .em-alta{
+        display: block;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    .img-em-alta{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .img-em-alta a img{
+        width: 100%;
+    }
+    .sub-em-alta{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .sub-em-alta p{
+        font-size: 16px;
+    }
+    #fontes-noticia1{
+        max-width: 100%;
+        font-size: 13px;
+    }
 }
 
 .breaking-news-aling{
@@ -57,16 +99,32 @@ h4{
     font-family: 'Poppins',sans-serif;
     font-size: 10px;
 }
-.box-centro{            /*Criei essa div só pra alinhar o quadro de noticias*/
-    margin-left: 9%;
-    display: flex;
-    width: 77%;
-    margin-top: 25px;
 
+/*Responsividade do "breaking-news"*/
+@media ( max-width:700px){
+    .breaking-news-aling{
+        display: block;
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .breaking-news{
+        width: 100%;
+        height: 60px;
+    }
+    .breaking-news h3{
+        font-size: 12px;
+    }
+    .breaking-news a{
+        font-size: 12px;
+    }
 }
-.box-centro1{
-    width: 70%;
-    margin-left: 0px;
+.box-centro{            /*Criei essa div só pra alinhar o quadro de noticias*/
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 .nav-board{
     height: 30px;
@@ -100,6 +158,7 @@ h4{
 }
 .board{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
 }
@@ -173,8 +232,8 @@ h4{
     padding: 0px 15px 0px 15px;
 }
 .veja-mais{
-    margin-left: 36.5%;
-    margin-top: 25px;
+    display: block;
+    margin: 0 auto;
     width: 200px;
     height: 50px;
     border: 1px solid;
@@ -183,11 +242,67 @@ h4{
     color: #C31815;
     cursor: pointer;
 }
+
+
+/*Responsividade box de noticias*/
+@media ( max-width: 700px){
+    .box-centro{
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .box-centro1{
+        display: block;
+        margin: 0 auto;
+    }
+    .nav-board{
+        display: flex;
+        margin: 0 auto;
+    }
+    .nav-board1{
+        max-width: 100%;
+        width: 100%;
+    }
+    .board{
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .news-board{
+        width: 100%;
+    }
+    .new{
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .noticias-locais{
+        padding-top: 30px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .noticias-locais h4{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+    .noticias-locais1{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 #titulo-escolha-do-editor{
     font-family: 'Poppins',sans-serif;
-    margin: 10px 0px 15px 6%;
+    margin: 50px 0px 15px 6%;
 }
 .carousel {
+    display: block;
+    max-width: 100%;
     width: 94%;
     margin: 0 auto;
     overflow: hidden;
@@ -218,4 +333,13 @@ h4{
     font-family: 'IBM Plex Serif', serif;
     padding: 5px 0 0 0;
     font-size: 13px;
+}
+@media ( max-width:685px){
+
+}
+@media ( max-width:700px){
+    .carousel{
+        max-width: 100%;
+        width: 90%;
+    }
 }
