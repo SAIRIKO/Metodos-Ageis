@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans&family=Poppins&display=swap');
 /*Fontes útilizadas no figma : IBM - Títulos das noticias; Poppins : Notícia de marte; Nunito : As outras notícias*/
+html{
+    max-width: 100%;
+}
 body{
-    background-color: whitesmoke;
+    background-color: rgb(226, 225, 225);
     font-family: 'IBM Plex Serif', serif;
 }
-
+main{
+    margin: 40px 0;
+}
 .cadastro{
     display: block;
+    margin: 0 auto;
+
     background-color: #0E1E32;
     color: #ffff;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 15px;
-    margin-left: 500px;
-    padding: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px rgb(0,0,0.015);
+
     align-items: center;
-    width: 350px;
     text-align: center;
+
+    width: 350px;
+    padding: 50px;
 }
 .esqueceu{
     text-decoration: none;
@@ -56,4 +63,27 @@ button:hover{
 .conta-nova-txt{
     font-family: 'IBM Plex Serif', serif;
     font-size: 13px;
+}
+
+@media (max-width:455px){
+    main{
+        margin: 0;
+    }
+    .cadastro{
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid black;
+    }
+    h1{
+        font-size: 27px;
+    }
+    h5{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:275px){
+    h5{
+        display: none;
+    }
 }
